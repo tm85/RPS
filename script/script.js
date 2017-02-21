@@ -77,9 +77,4 @@ $(document).ready(function () {
             }).appendTo('#chooseMove').css('margin', '15px 15px 0 0');
         }//End for   
     });//End of #startGame     
-    $('#resetGame').on('click', function () {
-        //Resets gameResult 
-        userPlaying.resetPlay();
-        $('#gameResult').empty();
-    });//End of #startGame     
-})//End of (document).ready
+  })//End of (document).ready
