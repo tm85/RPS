@@ -52,7 +52,6 @@ function rpsPlay(played) {
 }//end of function rpsPlay();
 
 $(document).ready(function () {
-    $('#resetGame').hide();
     //Start the game
     $('#startGame').on('click', function () {
         //$('#resetGame').show();
