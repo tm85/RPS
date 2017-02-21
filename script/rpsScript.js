@@ -107,20 +107,7 @@
             else
                 this.count.tieCnt++;
 
-        },
-        resetPlay: function () {
-            //Set initial probability of each
-            this.handPlayed.Rock.prob = initProb;
-            this.handPlayed.Paper.prob = initProb;
-            this.handPlayed.Scissors.prob = initProb;
-
-            //reset play count
-            this.count.playCnt = 0;
-            this.count.winCnt = 0;
-            this.count.loseCnt = 0;
-            this.count.tieCnt = 0;
-            return this;
-        },
+        },       
         convertToObj: function (userPlayed) {
             //Find object in prototype from string that is selected from buttons
             var handObj = this.handPlayed;
