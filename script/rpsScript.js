@@ -124,7 +124,6 @@
         convertToObj: function (userPlayed) {
             //Find object in prototype from string that is selected from buttons
             var handObj = this.handPlayed;
-            console.log(this);
             if (userPlayed === "Rock") {
                 this.incCount(handObj.Rock);
                 return handObj.Rock;
